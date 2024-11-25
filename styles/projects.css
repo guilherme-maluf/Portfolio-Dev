@@ -44,16 +44,20 @@ header {
     align-items:center;
     text-align: left;
 
-  div {
-  padding: 4px;
-  margin-bottom: 4px;
-  
-    h3 {
-      margin-bottom: 8px;
+    div {
+    padding: 4px;
+    margin-bottom: 4px;
+    
+      h3 {
+        margin-bottom: 8px;
+      }
+
     }
 
   }
 
+  figure:hover {
+    border: 1.5px solid var(--base-color-gray400);
   }
 
   img {
