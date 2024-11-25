@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-section {
-  background-color: var(--base-color-gray100);
-}
-
 :root {
   --main-color-red: #E3646E;
   --main-color-purple: #BB72E9;
@@ -34,11 +30,10 @@ section {
   --text-subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-mavenpro);
   --text-sm: 400 14px/140% var(--font-family-mavenpro);
-
 }
 
 body {
-  font: var(--text);
-  color: var(--text-color-primary);
-  background-color: var(--bg-color);
+  font: var(--text-md);
+  color: var(--base-color-gray600);
+  background-color: var(--base-color-gray200);
 }
