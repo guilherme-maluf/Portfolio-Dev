@@ -1,0 +1,41 @@
+#services {
+
+  padding: 88px 120px;
+  background-color: var(--base-color-gray100) ;
+
+    header {
+      margin-bottom: 56px;
+    }
+
+  img {
+    height: 48px;
+    width: 48px;
+    object-fit:none;
+  }
+
+}
+
+#grid {
+  justify-content: center;
+  text-align: left;
+  gap: 24px;
+}
+
+.cards {
+  width: 280px;
+  height: 155px;
+  border: 2px solid var(--base-color-gray200);
+  border-radius: 12px;
+  padding: 20px;  
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--base-color-gray500);
+  }
+
+}
